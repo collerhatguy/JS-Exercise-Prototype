@@ -110,10 +110,10 @@ class Baby extends Person {
   /* 
     TASK 4
     In your own words explain the four principles for the "this" keyword below:
-    1. 
-    2. 
-    3. 
-    4. 
+    1. using "this" outside of any functions objects or scopes will return the window;
+    2. using "this" inside a function or object returns said object or function;
+    3. using "this" inside a constructor refers to the object being constructed;
+    4. using .call or .bind applies "this" to the thing the method is being called on;
   */
   
   
